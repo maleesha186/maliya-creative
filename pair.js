@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `🛑 *create by MALIYA CREATIVE* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "Screenshot 2025-12-05 8.32.20 PM.png",
+                url: "https://raw.githubusercontent.com/maleesha186/photo-bot/refs/heads/main/Screenshot%202025-12-05%208.32.20%20PM.png",
               },
               caption: sid,
             });
@@ -129,4 +129,5 @@ process.on("uncaughtException", function (err) {
 });
 
 module.exports = router;
+
 
